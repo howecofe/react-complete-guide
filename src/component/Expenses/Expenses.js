@@ -2,7 +2,8 @@ import ExpenseItem from './ExpenseItem';
 import Card from '../UI/Card';
 import './Expenses.css';
 
-function Expenses(props) {
+// arrow 함수
+const Expenses = (props) => {
 
     return (
         <Card className="expenses">

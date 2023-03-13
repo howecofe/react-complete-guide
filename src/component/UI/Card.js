@@ -1,6 +1,7 @@
 import './Card.css';
 
-function Card(props) {
+// arrow 함수
+const Card = (props) => {
     const classes= 'card ' + props.className;
     return <div className={classes}>{props.children}</div>;
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import Expenses from "./component/Expenses/Expenses";
 
-
-function App() {
+// arrow 함수
+const App = () => {
   const expenses = [
     {
       id: "e1",

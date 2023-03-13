@@ -2,7 +2,8 @@ import ExpenseDate from './ExpenseDate';
 import Card from '../UI/Card';
 import './ExpenseItem.css';
 
-function ExpenseItem(props) {
+// arrow 함수
+const ExpenseItem = (props) => {
 
     return (
     <Card className="expense-item">
