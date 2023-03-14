@@ -1,5 +1,6 @@
 import React from "react";
 import Expenses from "./component/Expenses/Expenses";
+import NewExpense from "./component/NewExpense/NewExpense";
 
 // arrow 함수
 const App = () => {
@@ -35,7 +36,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses} />
     </div>
   );
